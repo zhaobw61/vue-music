@@ -2,8 +2,8 @@ import originJSONP from 'jsonp'
 
 export default function(url,data,options){
 
-    url += (url.indexof('?') < 0 ? '?' : '&') + para(data);
-    return new promise((reslove,reject)=>{
+    url += (url.indexOf('?') < 0 ? '?' : '&') + para(data);
+    return new Promise((reslove,reject)=>{
         originJSONP(url,options,(err,data)=>{
             if(!err){
                 reslove(data);

@@ -8,13 +8,15 @@
 
 > 和后端请求相关的代码
 
+- base: 基本组件库
+
 - commom fonts image js stylu s
 
 > 放一些静态资源
 
 - components
 
-> 通用组件
+> 通用组件，业务组件
 
 - router
 
